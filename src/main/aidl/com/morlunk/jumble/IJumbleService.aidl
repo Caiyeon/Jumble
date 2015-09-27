@@ -92,7 +92,7 @@ interface IJumbleService {
     //void requestChannelPermissions(int channel);
     void setMuteDeafState(int session, boolean mute, boolean deaf);
     void setSelfMuteDeafState(boolean mute, boolean deaf);
-    //void announceRecordingState(boolean recording);
+    void startRecording(String path);
 
     // Observation
     void registerObserver(in IJumbleObserver observer);

@@ -956,6 +956,11 @@ public class JumbleService extends Service implements JumbleConnection.JumbleCon
         }
 
         @Override
+        public void startRecording(String path) throws RemoteException {
+
+        }
+
+        @Override
         public void registerObserver(IJumbleObserver observer) throws RemoteException {
             mCallbacks.registerObserver(observer);
         }
